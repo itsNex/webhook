@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+* {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body {
+    background-color: #373636;
+}
+
+/* #container {
+    margin-top: 80px;
+    margin: auto;
+    margin-right: 25px;
+    margin-left: 25px;
+    box-shadow: 7px 7px #0000006c;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-color: rgb(85, 85, 85);
+    padding: 25px; 
+} */
+
+#header {
+    text-align: center;
+    margin-top: 47px;
+    margin: auto;
+    font-size: 39px
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.center-align {
+    text-align: center;
+}
+
+p {
+    font-size: 27px;
+}
+
+a, a:visited {
+    background-image: repeating-linear-gradient(45deg, blue, green, yellow, orange, red);
+    text-align: center;
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    animation: rainbow 8s ease infinite;
+  }
+  
+  @keyframes rainbow { 
+      0%{background-position:0% 50%}
+      50%{background-position:100% 25%}
+      100%{background-position:0% 50%}
+}
+#link {
+    font-size: 25px;
+    background-color: #4e4e4e;
+    width: 75%;
+    box-shadow: 9px 9px #0000006c;
+    padding: 20px;
+    border-radius: 25px;
+    border: solid #000000;
+}
+#link:hover {
+    font-size: 25px;
+    background-color: #4e4e4e;
+    width: 75%;
+    padding: 20px;
+    box-shadow: 7px 7px #0000006c;
+    border-radius: 25px;
+    border: solid #000000;
+}
+#content {
+    font-size: 25px;
+    background-color: #4e4e4e;
+    width: 75%;
+    box-shadow: 9px 9px #0000006c;
+    padding: 20px;
+    border-radius: 25px;
+    border: solid #000000;
+}
+#content:hover {
+    font-size: 25px;
+    background-color: #4e4e4e;
+    width: 75%;
+    padding: 20px;
+    box-shadow: 7px 7px #0000006c;
+    border-radius: 25px;
+    border: solid #000000;
+}
+#username {
+    font-size: 25px;
+    background-color: #4e4e4e;
+    width: 75%;
+    box-shadow: 9px 9px #0000006c;
+    padding: 20px;
+    border-radius: 25px;
+    border: solid #000000;
+}
+#username:hover {
+    font-size: 25px;
+    background-color: #4e4e4e;
+    width: 75%;
+    padding: 20px;
+    box-shadow: 7px 7px #0000006c;
+    border-radius: 25px;
+    border: solid #000000;
+}
+#avatar {
+    font-size: 25px;
+    background-color: #4e4e4e;
+    width: 75%;
+    box-shadow: 9px 9px #0000006c;
+    padding: 20px;
+    border-radius: 25px;
+    border: solid #000000;
+}
+#avatar:hover {
+    font-size: 25px;
+    background-color: #4e4e4e;
+    width: 75%;
+    padding: 20px;
+    box-shadow: 7px 7px #0000006c;
+    border-radius: 25px;
+    border: solid #000000;
+}
+
+#btn {
+    /* Only look send button settings */
+    width: 35%;
+    font-size: 25px;
+    margin-top: 25px;
+    padding: 17px;
+    background-color: #646464;
+    border-radius: 25px;
+    border: solid #000000;
+}
+
+#btn:hover { 
+    width: 35%;
+    font-size: 25px;
+    margin-top: 25px;
+    padding: 17px;
+    background-color: #858585;
+    border-radius: 25px;
+    border: solid #000000; 
+}
